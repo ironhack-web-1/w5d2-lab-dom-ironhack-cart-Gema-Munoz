@@ -20,7 +20,7 @@ function calculateAll() {
   
   const allProducts = document.getElementsByClassName("product")
 
-  let sum = 0;
+  let sum = 0; 
 
   Array.from(allProducts).forEach(product => {
     sum = sum + updateSubtotal(product)
